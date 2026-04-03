@@ -29,7 +29,7 @@ pipeline {
                 aws ecs update-service \
                 --cluster flask-cluster \
                 --service flask-service \
-		--region $AWS_REGION \
+		--region ap-southeast-2 \
                 --force-new-deployment
                 '''
             }
