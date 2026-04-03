@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         AWS_REGION = 'ap-southeast-2'
-        ECR_REPO = '364073565976.dkr.ecr.ap-southeast-2.amazonaws.com/flask-app:latest'
+        ECR_REPO = '364073565976.dkr.ecr.ap-southeast-2.amazonaws.com/flask-app'
     }
     stages {
         stage ('Build Docker Image') {
